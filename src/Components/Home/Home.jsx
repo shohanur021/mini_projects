@@ -1,7 +1,6 @@
 import age_cal from "../../Images/age_cal.png";
 import Navbar from "./Navbar";
 import Card from "./Card";
-import Age_calculator from "../Age_calculator/Age_calculator";
 
 const Home = () => {
   const projects = [
@@ -54,13 +53,15 @@ const Home = () => {
 
   return (
     <>
-      <Age_calculator></Age_calculator>
-      {/* <Navbar></Navbar>
+      <Navbar></Navbar>
+      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl my-3 text-center font-bold text-gray-600 dark:text-white">
+        Enjoy using all the applications
+      </h1>
       <div className="flex flex-wrap justify-center gap-6 p-6">
-        {projects.map((item) => (
-          <Card item={item}></Card>
+        {projects.map((item, index) => (
+          <Card key={index} item={item}></Card>
         ))}
-      </div> */}
+      </div>
     </>
   );
 };
