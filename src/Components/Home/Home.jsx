@@ -12,10 +12,10 @@ const Home = () => {
       starting_date: "17/06/25",
     },
     {
-      name: "age_calculator",
+      name: "word_counter",
       description: "You can easily find out your age by using it.",
       image: age_cal,
-      starting_date: "17/06/25",
+      starting_date: "21/06/25",
     },
     {
       name: "age_calculator",
