@@ -1,20 +1,21 @@
 import age_cal from "../../Images/age_cal.png";
 import Navbar from "./Navbar";
 import Card from "./Card";
+import word_counter from "../../Images/word_counter.jpg"
 
 const Home = () => {
   const projects = [
     {
-      name: "age_calculator",
+      name: "Age Calculator",
       description:
         "Want to know exactly how old you are? This tool lets you calculate your age in seconds, with zero effort!",
       image: age_cal,
       starting_date: "17/06/25",
     },
     {
-      name: "word_counter",
-      description: "You can easily find out your age by using it.",
-      image: age_cal,
+      name: "Word Counter",
+      description: "You can easily find out how many words are present in your essay by using a word counter tool.",
+      image: word_counter,
       starting_date: "21/06/25",
     },
     {
