@@ -7,7 +7,7 @@ const Weather = () => {
 
   const fetchWeather = async () => {
     try {
-      const url = `http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_KEY}&q=${city}`;
+      const url = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_KEY}&q=${city}`;
       const response = await fetch(url);
       const data = await response.json();
 
