@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Age_calculator from "./Components/Age_calculator/Age_calculator";
 import NotFound from "./Components/NotFound/NotFound";
 import Word from "./Components/Word/Word";
+import Weather from "./Components/Weather/Weather";
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/word_counter",
       element: <Word />,
+    },
+    {
+      path: "/weather_report",
+      element: <Weather />,
     },
     {
       path: "*",

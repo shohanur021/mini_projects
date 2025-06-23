@@ -1,7 +1,8 @@
 import age_cal from "../../Images/age_cal.png";
 import Navbar from "./Navbar";
 import Card from "./Card";
-import word_counter from "../../Images/word_counter.jpg"
+import word_counter from "../../Images/word_counter.jpg";
+import weather from "../../Images/weather.jpg";
 
 const Home = () => {
   const projects = [
@@ -14,16 +15,17 @@ const Home = () => {
     },
     {
       name: "Word Counter",
-      description: "You can easily find out how many words are present in your essay by using a word counter tool.",
+      description:
+        "You can easily find out how many words are present in your essay by using a word counter tool.",
       image: word_counter,
       starting_date: "21/06/25",
     },
     {
-      name: "age_calculator",
+      name: "Weather Report",
       description:
-        "You can easily find out youj jk  yyy  yhjy yyky tjrt jytkyky k6r age by using it.",
-      image: age_cal,
-      starting_date: "17/06/25",
+        "Search for your desired city or town and easily get the latest and most accurate weather details",
+      image: weather,
+      starting_date: "23/06/25",
     },
     {
       name: "age_calculator",
