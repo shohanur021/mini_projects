@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Card from "./Card";
 import word_counter from "../../Images/word_counter.jpg";
 import weather from "../../Images/weather.jpg";
+import color_picker from "../../Images/color_picker.jpg";
 
 const Home = () => {
   const projects = [
@@ -28,10 +29,10 @@ const Home = () => {
       starting_date: "23/06/25",
     },
     {
-      name: "age_calculator",
-      description: "You can easily find out your age by using it.",
-      image: age_cal,
-      starting_date: "17/06/25",
+      name: "Color Picker",
+      description: "Pick any color instantly with ease using our powerful and user-friendly color picker—perfect for designers, developers, and creative minds!",
+      image: color_picker,
+      starting_date: "24/06/25",
     },
     {
       name: "age_calculator",

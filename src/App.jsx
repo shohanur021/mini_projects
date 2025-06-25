@@ -1,9 +1,10 @@
 import Home from "./Components/Home/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Age_calculator from "./Components/Age_calculator/Age_calculator";
+import Age_calculator from "./Components/AgeCalculator/Age_calculator";
 import NotFound from "./Components/NotFound/NotFound";
 import Word from "./Components/Word/Word";
 import Weather from "./Components/Weather/Weather";
+import ColorPicker from "./Components/ColorPicker/ColorPicker";
 
 function App() {
 
@@ -23,6 +24,10 @@ function App() {
     {
       path: "/weather_report",
       element: <Weather />,
+    },
+        {
+      path: "/color_picker",
+      element: <ColorPicker />,
     },
     {
       path: "*",
