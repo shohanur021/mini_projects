@@ -4,6 +4,7 @@ import Card from "./Card";
 import word_counter from "../../Images/word_counter.jpg";
 import weather from "../../Images/weather.jpg";
 import color_picker from "../../Images/color_picker.jpg";
+import currency_converter from "../../Images/currency_converter.jpg";
 
 const Home = () => {
   const projects = [
@@ -35,10 +36,10 @@ const Home = () => {
       starting_date: "24/06/25",
     },
     {
-      name: "age_calculator",
-      description: "You can easily find out your age by using it.",
-      image: age_cal,
-      starting_date: "17/06/25",
+      name: "currency converter",
+      description: "You can access real-time currency exchange rates completely free using this application. It converts between various currencies instantly",
+      image: currency_converter,
+      starting_date: "27/06/25",
     },
     {
       name: "age_calculator",
@@ -47,9 +48,9 @@ const Home = () => {
       starting_date: "17/06/25",
     },
     {
-      name: "age_calcullluuyyul lu lulu lulul ul uylul yuuk uk uykukuk uhkyk h ykh kyj yjator",
+      name: "age_calcullluuyyul lu lulu lulul",
       description:
-        "You can easily find out your age by using it. yul lu lulu lulul ul uylul yuuk uk uykukuk uhkyk h ykh kyj yjator",
+        "You can easily find out your age by using it. yul lu lulu lulul ul uylul yuuk uk uyk h hjjtjt kk yk k yky k ykyt k ",
       image: age_cal,
       starting_date: "17/06/25",
     },

@@ -5,10 +5,10 @@ import NotFound from "./Components/NotFound/NotFound";
 import Word from "./Components/Word/Word";
 import Weather from "./Components/Weather/Weather";
 import ColorPicker from "./Components/ColorPicker/ColorPicker";
+import CurrencyConverter from "./Components/CurrencyConverter/CurrencyConverter";
 
 function App() {
-
-    const router = createBrowserRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <Home />,
@@ -25,21 +25,25 @@ function App() {
       path: "/weather_report",
       element: <Weather />,
     },
-        {
+    {
       path: "/color_picker",
       element: <ColorPicker />,
     },
     {
+      path: "/currency_converter",
+      element: <CurrencyConverter />,
+    },
+    {
       path: "*",
       element: <NotFound />,
-    }
+    },
   ]);
 
   return (
     <>
       <RouterProvider router={router}></RouterProvider>
     </>
-  )
+  );
 }
 
 export default App;
