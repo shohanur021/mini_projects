@@ -42,17 +42,18 @@ const Home = () => {
       starting_date: "27/06/25",
     },
     {
-      name: "age_calculator",
-      description: "You can easily find out your age by using it.",
+      name: "Age Calculator",
+      description:
+        "Want to know exactly how old you are? This tool lets you calculate your age in seconds, with zero effort!",
       image: age_cal,
       starting_date: "17/06/25",
     },
     {
-      name: "age_calcullluuyyul lu lulu lulul",
+      name: "Word Counter",
       description:
-        "You can easily find out your age by using it. yul lu lulu lulul ul uylul yuuk uk uyk h hjjtjt kk yk k yky k ykyt k ",
-      image: age_cal,
-      starting_date: "17/06/25",
+        "You can easily find out how many words are present in your essay by using a word counter tool.",
+      image: word_counter,
+      starting_date: "21/06/25",
     },
   ];
 
