@@ -5,6 +5,7 @@ import word_counter from "../../Images/word_counter.jpg";
 import weather from "../../Images/weather.jpg";
 import color_picker from "../../Images/color_picker.jpg";
 import currency_converter from "../../Images/currency_converter.jpg";
+import recipe from "../../Images/recipe.png";
 
 const Home = () => {
   const projects = [
@@ -42,19 +43,12 @@ const Home = () => {
       starting_date: "27/06/25",
     },
     {
-      name: "Age Calculator",
+      name: "recipe",
       description:
-        "Want to know exactly how old you are? This tool lets you calculate your age in seconds, with zero effort!",
-      image: age_cal,
-      starting_date: "17/06/25",
-    },
-    {
-      name: "Word Counter",
-      description:
-        "You can easily find out how many words are present in your essay by using a word counter tool.",
-      image: word_counter,
-      starting_date: "21/06/25",
-    },
+        "Start cooking! With basic ingredients and online recipes, you can recreate amazing meals at home",
+      image: recipe,
+      starting_date: "02/07/25",
+    }
   ];
 
   return (

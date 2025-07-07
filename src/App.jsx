@@ -6,6 +6,7 @@ import Word from "./Components/Word/Word";
 import Weather from "./Components/Weather/Weather";
 import ColorPicker from "./Components/ColorPicker/ColorPicker";
 import CurrencyConverter from "./Components/CurrencyConverter/CurrencyConverter";
+import Recipe from "./Components/Recipe/Recipe";
 
 function App() {
   const router = createBrowserRouter([
@@ -32,6 +33,10 @@ function App() {
     {
       path: "/currency_converter",
       element: <CurrencyConverter />,
+    },
+    {
+      path: "/recipe",
+      element: <Recipe />,
     },
     {
       path: "*",
